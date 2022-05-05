@@ -5,9 +5,9 @@ public class Info {
     int semestre;
     
     public void Imprimir(){
-        System.out.println(Nombre);
-        System.out.println(Carrera);
-        System.out.println(semestre);
+        System.out.println("Nombre: " + Nombre);
+        System.out.println("Carrera: " + Carrera);
+        System.out.println("Semestre: " + semestre);
     }
 
     public Info(String Nombre, String Carrera, int semestre) {
